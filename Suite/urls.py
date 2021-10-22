@@ -16,7 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from SuiteApp.views import *
+from django.conf.urls import url
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'^logout/$', logOut.as_view(), name='logout'),
     path('api/v1/', include('SuiteApi.urls'), name='api'),
+    path('registrar/', registrarView.as_view(), name='registrar'),
+    path('rol/', insertarTipoUser.as_view(), name='rol'),
 ]
