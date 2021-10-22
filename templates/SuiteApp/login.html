@@ -1,0 +1,69 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>SIP</title>
+    <link rel="shortcut icon" type="image/png" href="{% static '/app/img/favicon.png' %}"/>
+    <link rel="stylesheet" href="{% static '/app/css/bootstrap-login.min.css' %}"/>
+    <link rel="stylesheet" href="{% static '/app/css/login.min.css' %}"/>
+    <link href="{% static 'global/plugins/bootstrap-toastr/toastr.min.css' %}" rel="stylesheet"/>
+</head>
+<body>
+<section>
+    <div class="container">
+        <div class="login">
+
+            <div class="login-form">
+
+
+                <form class="form-signin" method="post" action="/api/v1/login" >
+                    {% csrf_token %}
+                    <div class="wrapper">
+                        <input name="username" type="text" class="form-control"
+                               placeholder="Usuario" {% if not form.username.value %}autofocus{% endif %} required
+                               autocomplete="on"
+                               value="{% if form.username.value %}{{ form.username.value }}{% endif %}">
+                        <i class="glyphicon glyphicon-remove"></i>
+                    </div>
+                    <div class="wrapper">
+                        <input name="password" type="password" class="form-control" autocomplete="false"
+                               placeholder="Contraseña" required {% if form.username.value %}autofocus{% endif %}>
+                        <i class="glyphicon glyphicon-remove"></i>
+                    </div>
+
+                    {% if messages %}
+                        <div class="expire-session">
+                            {% for m in messages %}
+                                {% if m.tags == 'info' %}
+                                    {{ m }}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                    <input type="hidden" name="next" value="{{ next }}">
+                    <div class="form-error">
+                        <p>Por favor, complete sus credenciales</p>
+                    </div>
+                    <button class="btn btn-danger" type="submit">Iniciar sesión</button>
+                    <input type="hidden" name="next" value="{{next}}" />
+                </form>
+            </div>
+        </div>
+
+    </div>
+</section>
+<script src="{% static 'global/plugins/jquery.min.js' %}"></script>
+<script src="{% static 'global/plugins/bootstrap-toastr/toastr.min.js' %}"></script>
+<script src="{% static 'global/plugins/jquery-validation/js/jquery.validate.min.js' %}"></script>
+<script>
+    $(function () {
+        $('form').validate({errorContainer: $('.form-error')});
+    });
+    {% if form.errors %}
+        toastr.error('{% for field, errors in form.errors.items %}{% for error in errors %}{{ error }}{% endfor %}{% endfor %}', '');
+    {% endif %}
+</script>
+</body>
+</html>>
