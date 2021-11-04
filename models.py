@@ -1,6 +1,37 @@
+import datetime
+import uuid
+import os
+from django.core.validators import MinValueValidator
 from django.contrib.auth.models import User
+from django.contrib.sessions.models import Session
 from django.db import models
+from django.conf import settings
+from django.db.models.signals import *
+from rest_framework.authtoken.models import Token
+from django.dispatch import receiver
 
+class UserApp(User):
+    uui = models.UUIDField(default=uuid.uuid4, editable=False, null=True)
+    image = models.ImageField(upload_to='static/users', verbose_name="Avatar",
+                              null=True, default='static/users/userDefault1.png')
+    referUser = models.UUIDField(null=True)
+    fa2 = models.BooleanField(verbose_name="2FA", default=False)
+
+    def __str__(self):
+        return str(self.username)
+
+    def Online(self):
+        for s in Session.objects.all():
+            if s.get_decoded():
+                if self.id == int(s.get_decoded()['_auth_user_id']):
+                    now = datetime.datetime.now()
+                    dif = (now - s.expire_date)
+                    if dif < datetime.timedelta(seconds=0):
+                        return True
+        return False
+
+    class Meta:
+        verbose_name_plural = "Usuarios"
 
 # class User con los datos
 #     nombre_apellidos = models.CharField(max_length=50)
@@ -15,6 +46,7 @@ from django.db import models
 #     tarjeta_credito = models.CharField()
 
 class Tipo_vivienda(models.Model):
+    uui = models.UUIDField(default=uuid.uuid4, editable=False)
     tipo = models.CharField(max_length=100)  # departamento, casa, vivienda anexa, alojamiento unico, etc...
 
     def __str__(self):
@@ -22,6 +54,7 @@ class Tipo_vivienda(models.Model):
 
 
 class Tipo_alojamiento(models.Model):
+    uui = models.UUIDField(default=uuid.uuid4, editable=False)
     tipo = models.CharField(max_length=100)  # alojaminto entero, habitacion privada, habitacion compartida
 
     def __str__(self):
@@ -29,6 +62,7 @@ class Tipo_alojamiento(models.Model):
 
 
 class Tipo_cama(models.Model):
+    uui = models.UUIDField(default=uuid.uuid4, editable=False)
     tipo = models.CharField(max_length=100)  # king, queen, pesonal, litera
 
     def __str__(self):
@@ -36,6 +70,7 @@ class Tipo_cama(models.Model):
 
 
 class Habitacion(models.Model):
+    uui = models.UUIDField(default=uuid.uuid4, editable=False)
     nombre = models.CharField(max_length=100)
     banno_privado = models.BooleanField(blank=True, null=True)
     tipo_cama = models.ForeignKey(Tipo_cama, on_delete=models.CASCADE)
@@ -45,6 +80,7 @@ class Habitacion(models.Model):
 
 
 class Arrendador_Vivienda(models.Model):
+    uui = models.UUIDField(default=uuid.uuid4, editable=False)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     licencia = models.CharField(max_length=100)
     direccion = models.CharField(max_length=100)
@@ -125,6 +161,7 @@ class Arrendador_Vivienda(models.Model):
 
 
 class Transporte(models.Model):
+    uui = models.UUIDField(default=uuid.uuid4, editable=False)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     marca = models.CharField(max_length=100)
 
@@ -136,6 +173,7 @@ class Transporte(models.Model):
 
 
 class Guia_Turistica(models.Model):
+    uui = models.UUIDField(default=uuid.uuid4, editable=False)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
 
     # licencia = models.CharField(max_length=100)
@@ -143,3 +181,12 @@ class Guia_Turistica(models.Model):
 
     def __str__(self):
         return self.user.first_name
+
+
+@receiver(post_save, sender=settings.AUTH_USER_MODEL)
+def create_auth_token(sender, instance=None, created=False, **kwargs):
+    if created:
+        Token.objects.create(user=instance)
+
+    for user in User.objects.all():
+        Token.objects.get_or_create(user=user)

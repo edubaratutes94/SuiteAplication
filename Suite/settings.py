@@ -76,6 +76,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'social_django.context_processors.backends',  # <-- Here
+                'social_django.context_processors.login_redirect',  # <-- Here
             ],
         },
     },
@@ -134,3 +136,23 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+#
+# LOGIN_REDIRECT_URL = reverse_lazy('inicio')
+# LOGOUT_REDIRECT_URL = reverse_lazy('ce_login')
+# SESSION_COOKIE_AGE = 600 #10min
+# SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+# SESSION_SAVE_EVERY_REQUEST = True
+
+# notificaciones
+DJANGO_NOTIFICATIONS_CONFIG = {'USE_JSONFIELD': True, 'SOFT_DELETE': True}
+
+# email
+if DEBUG:
+    EMAIL_HOST = 'localhost'
+    EMAIL_HOST_USER = ''
+    EMAIL_HOST_PASSWORD = ''
+    EMAIL_PORT = 1026
+    DEFAULT_FROM_EMAIL = 'comercial@yourproject.cu'

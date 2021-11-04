@@ -1,68 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64d85f4e-333e-4306-9012-33a334b26816" name="Default" comment="" />
+    <list default="true" id="64d85f4e-333e-4306-9012-33a334b26816" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Suite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Suite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suite/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suite/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suite/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suite/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApi/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApi/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApi/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApi/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApi/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApi/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApi/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApi/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApi/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApi/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApi/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApp/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApp/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApp/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApp/migrations/0002_registrarusuario_tblrol.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApp/migrations/0002_registrarusuario_tblrol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApp/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApp/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApp/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuiteApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuiteApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/bootstrap-tweaks.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/css/bootstrap-tweaks.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/font-awesome-4.0.3.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/css/font-awesome-4.0.3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/css/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/docs/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/highlight.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/docs/css/highlight.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/jquery.json-view.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/docs/css/jquery.json-view.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/docs/js/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/highlight.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/docs/js/highlight.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/jquery.json-view.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/docs/js/jquery.json-view.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/ajax-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/js/ajax-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/coreapi-0.1.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/js/coreapi-0.1.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/csrf.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/js/csrf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/js/default.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/prettify-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/js/prettify-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suite.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/suite.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/SuiteApp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/SuiteApp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/SuiteApp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/SuiteApp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/SuiteApp/registrarusuario_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/SuiteApp/registrarusuario_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/SuiteApp/rol.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/SuiteApp/rol.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SuiteAplication-main" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SuiteApp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="-1129">
+              <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SuiteApi/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-789">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/SuiteApp/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rol.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/SuiteApp/rol.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registrarusuario_form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/SuiteApp/registrarusuario_form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/SuiteApp/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Suite/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
         </entry>
@@ -70,21 +97,42 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SuiteApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-517">
-              <caret lean-forward="true" />
+            <state relative-caret-position="255">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding>
-                <element signature="e#28#63#0" expanded="true" />
+                <element signature="e#26#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SuiteApp/forms.py">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SuiteApp/utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <element signature="e#1#25#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Suite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SuiteApi/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,13 +141,33 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Suite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-              <folding>
-                <element signature="e#629#661#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SuiteApp/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SuiteApi/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SuiteApi/models.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -113,21 +181,32 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Forbidden" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SuiteApp/views.py" />
         <option value="$PROJECT_DIR$/SuiteApp/forms.py" />
-        <option value="$PROJECT_DIR$/Suite/urls.py" />
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/templates/rol.html" />
         <option value="$PROJECT_DIR$/templates/SuiteApp/base.html" />
         <option value="$PROJECT_DIR$/templates/SuiteApp/login.html" />
         <option value="$PROJECT_DIR$/templates/SuiteApp/rol.html" />
         <option value="$PROJECT_DIR$/templates/SuiteApp/registrarusuario_form.html" />
+        <option value="$PROJECT_DIR$/Suite/settings.py" />
+        <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/SuiteApi/urls.py" />
         <option value="$PROJECT_DIR$/SuiteApp/models.py" />
+        <option value="$PROJECT_DIR$/SuiteApi/serializers.py" />
+        <option value="$PROJECT_DIR$/SuiteApi/views.py" />
+        <option value="$PROJECT_DIR$/SuiteApp/views.py" />
+        <option value="$PROJECT_DIR$/Suite/urls.py" />
+        <option value="$PROJECT_DIR$/SuiteApi/admin.py" />
       </list>
     </option>
   </component>
@@ -140,53 +219,36 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
-    <option name="width" value="654" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SuiteAplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuiteAplication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SuiteAplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuiteAplication" type="462c0819:PsiDirectoryNode" />
-              <item name="Suite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SuiteAplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuiteAplication" type="462c0819:PsiDirectoryNode" />
-              <item name="SuiteApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SuiteAplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuiteAplication" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SuiteAplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuiteAplication" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="SuiteApp" type="462c0819:PsiDirectoryNode" />
+              <item name="Baratutes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Baratutes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -214,13 +276,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="Suite.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Program Files (x86)\Python 3.5\python.exe" />
+      <option name="SDK_HOME" value="C:\Program Files\Python38\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
+      <option name="port" value="8004" />
       <option name="host" value="127.0.0.1" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="http://127.0.0.1:8000/bienvenida" />
@@ -257,7 +319,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="efa4da6c-71be-4bde-9ce3-905942f811ac" name="Default" comment="" />
+      <changelist id="64d85f4e-333e-4306-9012-33a334b26816" name="Default" comment="" />
       <created>1634910513479</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -265,43 +327,227 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21925133" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.328877" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19151671" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3349835" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4009901" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.12811127" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="1" sideWeight="0.5012285" side_tool="true" weight="0.12556732" />
+      <window_info id="Favorites" order="2" sideWeight="0.5012285" side_tool="true" weight="0.12556732" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cambios de Baratutes con los endpoints y cruds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios de Baratutes con los endpoints y cruds" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SuiteApi/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApi/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApi/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApi/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#314#1519#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApi/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#314#1519#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="113" column="13" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApi/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#314#1519#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/SuiteApp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/SuiteApp/rol.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/SuiteApp/registrarusuario_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/SuiteApp/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Suite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApp/forms.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Suite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SuiteApp/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="40" column="7" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -330,9 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="17" selection-start-line="17" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -340,9 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="e#629#661#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -357,59 +597,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#28#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Python 3.5/Lib/site-packages/django/forms/widgets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="297" column="6" selection-start-line="297" selection-start-column="6" selection-end-line="297" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files (x86)/Python 3.5/Lib/site-packages/django/forms/widgets.py" />
     <entry file="file://$PROJECT_DIR$/templates/SuiteApp/rol.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Suite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SuiteApp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-517">
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#28#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SuiteApp/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Suite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#629#661#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -420,10 +615,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/SuiteApp/login.html">
+    <entry file="file://C:/Program Files/Python38/Lib/site-packages/django/contrib/auth/models.py" />
+    <entry file="file://$PROJECT_DIR$/templates/SuiteApp/registrarusuario_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="238">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -434,19 +630,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/SuiteApp/registrarusuario_form.html">
+    <entry file="file://$PROJECT_DIR$/templates/SuiteApp/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="281">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="191" column="46" lean-forward="true" selection-start-line="190" selection-start-column="4" selection-end-line="191" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#99#933#0" />
+            <element signature="e#1960#2112#0" />
+            <element signature="e#2208#2392#0" />
+            <element signature="e#2435#2661#0" />
+            <element signature="e#2772#7142#0" />
+            <element signature="e#7244#7510#0" />
+            <element signature="e#7616#7875#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python38/Lib/site-packages/django/forms/models.py" />
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="e#26#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApp/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Suite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Suite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApi/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApi/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SuiteApp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="-1129">
+          <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuiteApi/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-789">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#314#1519#0" />
           </folding>
         </state>
       </provider>
