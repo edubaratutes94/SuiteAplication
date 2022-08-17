@@ -1,38 +1,61 @@
 from django.core import exceptions
 from django.contrib.auth import authenticate
 from rest_framework import serializers
+from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
+
+from django.contrib.auth.models import User
 from SuiteApp.models import *
 
-class LoginSerializer(serializers.Serializer):
-    username = serializers.CharField()
-    password = serializers.CharField()
 
-    def validate(self, data):
-        username = data.get("username", "")
-        password = data.get("password", "")
-        if username and password:
-            user = authenticate(username=username, password=password)
-            if user:
-                if user.is_active:
-                    data["user"] = user
-                else:
-                    msg = {"msg": "Usuario desactivado"}
-                    raise exceptions.ValidationError(msg)
-            else:
-                user = User.objects.filter(username=username)
-                if user.count() > 0:
-                    if not user.get().is_active:
-                        msg = {"msg": "Usuario pendiente de activación"}
-                        raise exceptions.ValidationError(msg)
-                    else:
-                        msg = {"msg": "Error en el login, credenciales erroneas."}
-                        raise exceptions.ValidationError(msg)
-                else:
-                    msg = {"msg": "Error en el login, credenciales erroneas."}
-                    raise exceptions.ValidationError(msg)
-        else:
-            msg = {"msg": "Debe escribir usuario o contraseña, los dos!"}
-            raise exceptions.ValidationError(msg)
+
+class UserCreateSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(write_only=True)
+
+    def create(self, validated_data):
+        user = User.objects.create_user(
+            username=validated_data['username'],
+            password=validated_data['password'],
+            email=validated_data['email'],
+        )
+
+        return user
+
+    class Meta:
+        model = User
+        fields = ("id", "username", "password", "email")
+
+class UserSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(style={'input_type': 'password'})
+
+    class Meta:
+        model = User
+        exclude = ('user_permissions', 'is_staff', 'is_superuser', 'is_active')
+
+class ReadUserSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = User
+        exclude = ('user_permissions', 'password', 'is_staff', 'is_superuser', 'is_active')
+
+class ReadDetailUserSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = User
+        exclude = ('user_permissions', 'password', 'is_staff', 'is_superuser', 'is_active')
+        depth = 4
+
+class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
+    def validate(self, attrs):
+        data = super().validate(attrs)
+        user = self.user
+        data['user'] = {}
+        data['user']['id'] = user.id
+        data['user']['username'] = user.username
+        data['user']['first_name'] = user.first_name
+        data['user']['last_name'] = user.last_name
+        data['user']['email'] = user.email
+        data['user']['is_active'] = user.is_active
+        data['user']['date_joined'] = user.date_joined
         return data
 
 
@@ -78,15 +101,3 @@ class RegistroViviendaSerializer(serializers.ModelSerializer):
         model = Registrovivienda
         fields = '__all__'
 
-
-
-
-# class MunicipalitySerializer(serializers.ModelSerializer):
-#     province = serializers.SerializerMethodField()
-#
-#     class Meta:
-#         model = Municipality
-#         fields = ('uui', 'name', 'province')
-#
-#     def get_province(self, obj):
-#         return obj.province.uui
